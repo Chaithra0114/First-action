@@ -9,9 +9,9 @@ jobs:
         uses: actions/checkout@v2
       - name: Step two
         run: env | sort 
- job2:
+  job2:
     name: Second Job
-    runs-on: wimdows:latest
+    runs-on: windows:latest
     steps:
       - name: Step one
         uses: actions/checkout@v2
